@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+<h1 align="center">黑马程序员 - 极客园PC项目</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 项目介绍
 
-## Available Scripts
+**目标**：了解项目定位和功能
 
-In the project directory, you can run:
+- 极客园 H5 端项目：个人自媒体前台
 
-### `npm start`
+>「极客园」对标`CSDN`、`博客园`等竞品，致力成为更加贴近年轻 IT 从业者（学员）的科技资讯类应用  
+>产品关键词：IT、极客、活力、科技、技术分享、前沿动态、内容社交  
+>用户特点：年轻有活力，对IT领域前言科技信息充满探索欲和学习热情
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 项目功能，包括
+  - 短信登录、退出
+  - 首页-频道管理，文章列表，更多操作
+  - 文章详情-文章详情，文章评论，评论回复，点赞，收藏，关注
+  - 个人中心-个人资料展示，个人资料编辑
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 技术栈：
+  - `create-react-app`
+  - react hooks
+  - react-redux
+  - UI 组件库：`antd-mobile`
+  - ajax请求库：`axios`
+  - 路由：`react-router-dom` 以及 `history`
+  - CSS 预编译器：`sass`
+  - CSS Modules
+  - **TypeScript**
+  - 工具库：lodash
+  - hooks 库：ahooks
+  - websocket 即时通讯
