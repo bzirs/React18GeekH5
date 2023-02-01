@@ -1,10 +1,10 @@
 import { lazy } from 'react'
-import { Navigate, useRoutes } from 'react-router-dom'
+import { Navigate, RouteObject, useRoutes } from 'react-router-dom'
 
 const Layout = lazy(() => import(/* webpackChunkName: "Goods" */ '../pages/Layout'))
 const Login = lazy(() => import(/* webpackChunkName: "Goods" */ '../pages/Login'))
 
-const routes = [
+const routes: RouteObject[] = [
   {
     path: '/',
     element: <Navigate to='/home'></Navigate>
