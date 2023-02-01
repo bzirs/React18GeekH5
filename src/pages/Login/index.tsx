@@ -7,6 +7,8 @@ const Login = () => {
       <Button block color='primary' size='large' className={styles.btn}>
         登录
       </Button>
+
+      <div className={styles.box1}></div>
     </div>
   )
 }
