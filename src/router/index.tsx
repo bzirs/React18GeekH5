@@ -2,7 +2,7 @@ import { lazy } from 'react'
 import { Navigate, RouteObject, useRoutes } from 'react-router-dom'
 
 const Layout = lazy(() => import(/* webpackChunkName: "Goods" */ '../pages/Layout'))
-const Login = lazy(() => import(/* webpackChunkName: "Goods" */ '../pages/Login'))
+const Login = lazy(() => import(/* webpackChunkName: "Goods" */ '@/pages/Login'))
 
 const routes: RouteObject[] = [
   {
