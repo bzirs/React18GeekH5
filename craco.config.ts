@@ -23,8 +23,19 @@ module.exports = {
   },
   // 这里补充style配置
   style: {
+    // ◆ postcss的旧写法 (失效)
+    // postcss: {
+    //   plugins: [vw]
+    // }
+    // ◆ postcss8的新写法（推荐）
     postcss: {
-      plugins: [vw]
+      mode: 'extends',
+      loaderOptions: {
+        postcssOptions: {
+          ident: 'postcss',
+          plugins: [vw]
+        }
+      }
     }
   }
 }
