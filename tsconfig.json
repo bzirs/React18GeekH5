@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
+    /*  要添加这里才能识别@路径 */
     "baseUrl": "./",
     "paths": {
       "@/*": [
         "src/*"
       ]
     },
+    // 结束
     "target": "es5",
     "lib": [
       "dom",
@@ -29,6 +31,7 @@
   "include": [
     "src"
   ],
+  // 这样做不能识别@路径
   "exclude": [
     "./path.tsconfig.json"
   ]
